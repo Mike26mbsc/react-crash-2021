@@ -55,7 +55,7 @@ function App() {
   
   //delete task
   const deleteTask = async (id) => {
-	  console.log("this is the id passed to delete task "+ id);
+//	  console.log("this is the id passed to delete task "+ id);
        await fetch(`/api/tasks/${id}`, {
            method: 'DELETE',
          
