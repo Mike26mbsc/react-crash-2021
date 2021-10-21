@@ -42,6 +42,7 @@ router.post('/', (req, res) => {
   const newTask = new Task({
     text: req.body.text,
     day: req.body.day,
+    details: req.body.details,
     reminder: req.body.reminder
     
   });

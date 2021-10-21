@@ -9,6 +9,10 @@ const TasksSchema = new Schema({
   day: {
     type: String, 
   },
+  details: {
+    type: String, 
+  },
+
   reminder: {
     type: Boolean, 
   }
